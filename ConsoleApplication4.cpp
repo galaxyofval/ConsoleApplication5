@@ -82,7 +82,7 @@ int main()
         cout << "Invalid choice. \n";
     }
     cout << "\nYou got three problems in a row right! Press Enter to close...";
-    getline(cin, pause);  // This works now because of the cin.ignore() above
+    getline(cin, pause);
 
     return 0;
 }
